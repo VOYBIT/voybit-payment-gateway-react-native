@@ -1,0 +1,18 @@
+{
+  "name": "voybit-payment-gateway-react-native",
+  "version": "0.1.0",
+  "description": "Open a Voybit checkout from a React Native app.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "types": "./index.d.ts",
+  "files": ["index.js", "index.d.ts", "checkout.js", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test" },
+  "peerDependencies": { "react": ">=18", "react-native": ">=0.73" },
+  "engines": { "node": ">=18" }
+}
